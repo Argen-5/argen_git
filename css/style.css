@@ -41,10 +41,14 @@ ul li a:hover {
 }
 .container span {
     border: #2605cc 1px solid;
-    box-shadow: #ccc 5px 3px 4px 3px;
+    box-shadow: #ccc 5px 5px 4px 3px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-color: #d34d43;
-    border-top-color: #d34d43;
+    border-top-color: #ce740e;
     text-align: center;
+    transition: all .4s;
+}
+.container span:active {
+    transform: scale(0.9);
 }
